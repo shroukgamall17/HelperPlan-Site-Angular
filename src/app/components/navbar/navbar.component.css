@@ -1,0 +1,44 @@
+img {
+  width: 40px;
+  height: 35px;
+}
+.navbar {
+  padding: 1%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+.nav-item,
+.btn,
+.navbar-brand {
+  font-size: 1.1vw;
+  margin-right: 10px;
+}
+.navbar-collapse {
+  justify-content: space-between;
+}
+ul {
+  justify-content: end;
+}
+.navbar-collapse .Buttons {
+  width: 30%;
+}
+.navbar-collapse .MainLinks {
+  width: 50%;
+  justify-content: space-between;
+}
+.addJob {
+  cursor: pointer;
+}
+.taps{
+    font-size: 13px;
+    font-weight: bolder;
+    color: black;
+    
+}
+@media (max-width:1200px) {
+  .taps{
+    font-size: 10px;
+  }
+}
