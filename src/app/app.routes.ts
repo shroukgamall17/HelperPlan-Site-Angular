@@ -88,6 +88,7 @@ export const routes: Routes = [
     canActivate: [loginInGuard],
     component: RegisterComponent,
   },
+  
   { path: 'pricing', component: PricingComponent },
   {
     path: 'AddJob',

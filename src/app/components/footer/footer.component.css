@@ -1,11 +1,11 @@
 footer {
-    background-color: rgb(26 14 68);
+    background-color: rgb(9, 8, 12);
     padding-top: 70px;
+    
 }
 
 footer .footerContain {
     padding: 10px;
-    background-color: rgb(241, 240, 255);
 }
 
 footer .pages div {
@@ -14,7 +14,7 @@ footer .pages div {
 
 footer .pages div a {
     text-decoration: none;
-    color: rgb(87, 87, 87);
+    color:white;
     font-weight: bold;
 
 }
@@ -22,12 +22,15 @@ footer .pages div a {
 * {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
-body {
-    background: #f1f1f1;
+.logo p{
+    letter-spacing: 4px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #423f92;
 }
-
 h1 {
     font-family: sans-serif;
     font-weight: normal;
@@ -54,10 +57,9 @@ h1 {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    box-shadow: 6px 6px 10px -1px rgba(0, 124, 196, 0.15),
-        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    box-shadow: 8px 11px 12px -1px rgba(0, 124, 196, 0.15), 0px -1px 9px 4px rgba(255, 255, 255, 0.7);
     border: 1px solid rgba(0, 124, 196, 0);
-    transition: transform 0.5s
+    transition: transform 0.5s;
 }
 
 .Social-media a i {
